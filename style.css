@@ -1,0 +1,281 @@
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+  p {
+    font-family: 'Forum', cursive;
+  }
+
+  :root {
+    --main: #5876B4;
+  }
+
+  h1 {
+    font-family: 'Great Vibes', cursive;
+  }
+
+.splash-screen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.gradien {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), var(--main));
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.splash-screen .foto {
+  background-image: url(./nikah2.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splash-screen .gradien .content {
+  width: 100%;
+  height: 50vh;
+  color: white;
+}
+
+.splash-screen .gradien .content .hiasan {
+    background-color: #fff;
+    -webkit-mask-image: url(./8.png);
+    mask-image: url(./8.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain; 
+    height: 50px;
+    width: 100%;
+}
+
+.gradien .content h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 46px;
+  font-weight: bold;
+  text-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+}
+
+.gradien .content p {
+  font-size: 20px;
+  text-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+}
+
+.gradien .content button {
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./nikah2.jpeg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.gradien_2 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), var(--main));
+}
+
+.gradien_2 .content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.gradien_2 .content h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 46px;
+  font-weight: bold;
+  text-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+}
+
+.gradien_2 .content p {
+  font-size: 20px;
+  text-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+}
+
+.pengantar .hiasan {
+  background-color: var(--main);
+  -webkit-mask-image: url(./8.png);
+  mask-image: url(./8.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain; 
+  height: 50px;
+  width: 100%;
+}
+
+.pengantar h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--main);
+
+}
+
+/* memperkenalkan */
+
+.memperkenalkan {
+  background-color: #F5F5F5;
+}
+
+.memperkenalkan .hiasan {
+  background-color: var(--main);
+  -webkit-mask-image: url(./8.png);
+  mask-image: url(./8.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain; 
+  height: 50px;
+  width: 100%;
+}
+
+.memperkenalkan h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--main);
+}
+
+.memperkenalkan .member {
+  overflow: hidden;
+  position: relative;
+}
+
+.memperkenalkan .member-img {
+    background-repeat: no-repeat;
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-top: 25px;
+}
+
+
+.memperkenalkan .inner-img {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+}
+
+.jadwal .hiasan {
+  background-color: var(--main);
+  -webkit-mask-image: url(./8.png);
+  mask-image: url(./8.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain; 
+  height: 50px;
+  width: 100%;
+}
+
+.jadwal h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--main);
+}
+
+.jadwal h2{
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+}
+
+.jadwal .btn {
+  border-color: var(--main);
+  border-width: 2px;
+}
+
+.jadwal .btn:hover {
+  border-color: var(--main);
+  background-color: var(--main);
+  border-width: 2px;
+}
+
+
+.waktu_mundur {
+    background-color: #F5F5F5;
+}
+.waktu_mundur p {
+  background-color: #F6C1CC;
+  color: var(--main);
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.covid_bug p {
+  background-color: #F6C1CC;
+  color: var(--main);
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.icon-box {
+  padding: 20px;
+    transition: ease-in-out 0.3s;
+    box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
+    text-align: center;
+}
+
+.icon-box i{
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+#ucapan_dan_doa .wrapper_ucapan {
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#ucapan_dan_doa .wrapper_ucapan .content h2 {
+  color: var(--main);
+  font-weight: bold;
+  line-height: 1;
+}

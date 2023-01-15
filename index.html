@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pernikahan Mariska dan Umar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    #play-pause {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body style="scroll-behavior: smooth;">
+
+  <section class="splash-screen">
+    <div class="foto"></div>
+    <div class="gradien">
+      <div class="text-white py-5">
+        <p class="text-center mb-2 text-shadow fw-normal fs-5 px-4">Undangan Pernikahan <br>Kel. Solihin Yusaputra Hutasuhut & <br> Nurhaida Harahap</p>
+      </div>
+      <div class="content d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center">
+          <div class="hiasan"></div>
+          <h1 class="text-center my-3">Marizka & Umar</h1>
+          <p class="text-center text-shadow" id="name_to"></p>
+          <button class="btn btn-outline-light" id="btn_buka_undangan">Buka Undangan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="hero">
+      <div class="gradien_2">
+        <div class="content text-center px-5">
+          <div class="hiasan"></div>
+          <h1 class="text-center">Marizka <br> & <br> Umar</h1>
+          <p>Jl. HM. Joni No. 131 Medan Sebelah Altic Houseware</p>
+          <div class="border px-4 py-2 rounded-pill" style="font-family: 'Satisfy', cursive;">26 Februari 2023,
+            10:00-Selesai</div>
+        </div>
+      </div>
+    </div>
+    <div class="pengantar py-5 px-2 text-center container">
+      <div class="hiasan aos-item aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000"></div>
+      <h1 class="my-3 aos-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Pengantar</h1>
+      <p class="aos-item aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">Assalamualaikum Wr. Wb.
+        Mahasuci Allah telah menciptakan makhluk hidup dengan berpasang-pasangan, begitu pula manusia. Sungguh besar
+        rahmat dan karunia yang diberikan-Nya kepada keluarga Kami. Maka izinkan Kami mengundang sekaligus mengharapkan
+        doa restu dari Bapak/Ibu dan Saudara/i dalam acara pernikahan Kami</p>
+    </div>
+    <div class="memperkenalkan py-5 mt-3 px-2 text-center">
+      <div class="hiasan aos-item aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000"></div>
+      <h1 class="mt-3 aos-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Memperkenalkan</h1>
+      <p class="fw-bold aos-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"> Kami yang bahagia
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <div class="card shadow border-0 member aos-item aos-init aos-animate" data-aos="fade-down">
+              <div class="member-img">
+                <img src="./FOTO_NIKAH_MARIZKA.png" alt="" class="img-fluid">
+              </div>
+              <div class="inner-img">
+                <img src="./2.png" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <h1 class="card-title">Marizka Azmi Nadhiroh</h1>
+                <p class="card-text">Putri dari Bpk Solihin Yusaputra Hutasuhut dan Ibu Nurhaida Harahap </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="card shadow border-0 aos-item aos-init aos-animate" data-aos="fade-down">
+              <div class="member-img">
+                <img src="./FOTO_NIKAH_UMAR.png" alt="" class="img-fluid">
+              </div>
+              <div class="inner-img">
+                <img src="./2.png" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <h1 class="card-title">Umar</h1>
+                <p class="card-text">Putra dari Bpk Sri Cahyo dan Ibu Sanimah</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="jadwal py-4 px-2 text-center">
+      <div class="hiasan aos-item aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000"></div>
+      <h1 class="mt-3 aos-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Jadwal</h1>
+      <p class="fw-bold aos-item aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Kami mengharapkan
+        kehadiran Bapak/Ibu/Sdr/i pada acara yang kami selenggarakan.</p>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card shadow border-0 member px-3 pt-5 aos-item aos-init aos-animate" data-aos="fade-down"
+              data-aos-duration="1000">
+              <h2 class="my-3">Akad Nikah & Resepsi</h2>
+              <p>Jl. HM. Joni No. 131 Medan Sebelah Altic Houseware</p>
+              <p><strong>Minggu, 26 Februari 2023, 10:00 - Selesai</strong></p>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418.56470236949616!2d98.69936152254957!3d3.5688410801290287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313059935869b1%3A0xcddb08b5f142108a!2sJl.%20HM.%20Joni%20No.131%2C%20Teladan%20Tim.%2C%20Kec.%20Medan%20Area%2C%20Kota%20Medan%2C%20Sumatera%20Utara%2020216!5e0!3m2!1sid!2sid!4v1673679705721!5m2!1sid!2sid"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <a href="https://goo.gl/maps/wU9RC8pY47WbNW697" target="_blank" class="btn btn-outline-primary my-5">
+                Buka Peta
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row  mt-5 justify-content-center aos-item aos-init aos-animate" data-aos="zoom-in"
+          data-aos-duration="1000">
+          <div class="col-md-6 pt-3 waktu_mundur text-center">
+            <p class="py-1 mb-3 px-3">Menuju Hari Bahagi</p>
+            <h1 id="countdown"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="covid" class="features mt-5 py-5">
+      <div class="container">
+        <div class="section-title text-center aos-item aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">
+          <div class="covid_bug rounded-pill">
+            <p class="px-2 rounded-pill">Covid-19</p>
+          </div>
+          <div class="py-3">
+            <h1 class="fw-bold">Protokol <span style="color: #5876B4">Kesehatan</span></h1>
+            <p>Stop Penyebaran Covid-19 Dengan Menerapkan Protokol Kesehatan.</p>
+          </div>
+        </div>
+        <div class="aos-item aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-6 col-6">
+              <div class="icon-box">
+                <i class="fas fa-user-alt" style="color: #a87c02;"></i>
+                <h3>Memakai Masker</h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="icon-box">
+                <i class="fas fa-sign-language" style="color: #a87c02;"></i>
+                <h3>Hindari Berjabat Tangan</h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="fas fa-walking" style="color: #a87c02;"></i>
+                <h3>Menjaga Jarak</h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mt-4 mt-lg-0">
+              <div class="icon-box">
+                <i class="fas fa-tint" style="color: #a87c02;"></i>
+                <h3>Mencuci Tangan</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="untuk_tamu_undangan" class="memperkenalkan py-5 mt-5 px-2 text-center">
+      <div class="hiasan aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000"></div>
+      <div class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+      <div class="covid_bug rounded-pill py-3 " data-aos="fade-down" data-aos-duration="1000">
+        <p class="px-2 rounded-pill">Covid-19</p>
+      </div>
+      <h1 class="mt-3">Untuk Tamu Undangan</h1>
+      <p class="px-3">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir
+        dan memberikan
+        doa restu kepada kedua mempelai.
+        Atas kehadiran serta doa restu Bapak/Ibu/Saudara/i, kami ucapkan terimakasih.
+        Wassalamualaikum Wr. Wb.</p></div>
+    </div>
+
+    <div class="pengantar py-5 px-2 text-center container">
+      <div class="hiasan aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000"></div>
+      <h1 class="my-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Kirim Ucapan dan Doa</h1>
+      <form id="form_ucapan" class="aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="input_nama" placeholder="Nama Anda">
+        </div>
+        <div class="mb-3">
+          <select class="form-select" id="input_kehadiran">
+            <option value="Hadir">Hadir</option>
+            <option value="Belum Pasti">Belum Pasti</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <textarea class="form-control" id="input_pesan" rows="3" placeholder="Ucapan dan Doa"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary rounded-pill px-4"
+          style="background-color: #5876B4;">Kirim</button>
+      </form>
+    </div>
+
+    <div id="ucapan_dan_doa" class="memperkenalkan py-5 mt-5 px-2 text-center">
+      <div class="hiasan aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000"></div>
+      <h1 class="mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Ucapan dan Doa</h1>
+      <div class="wrapper_ucapan mt-4">
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center p-3">
+    <p>© Copyright 2023 @wahyu.nf. All Rights Reserved</p>
+  </footer>
+
+  <audio id="audio">
+    <source src="./song.mp3" type="audio/mpeg">
+    <source src="./song.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <button id="play-pause" class="btn btn-primary shadow btn-sm"><i class="fa-solid fa-volume-high"></i></button>
+
+  <style>
+    #audio {
+      display: none;
+    }
+  </style>
+
+  <script>
+    var url = new URL(window.location.href);
+    var to = url.searchParams.get("to")?.split('_').join(' ');
+    document.getElementById('name_to').innerHTML = to ? `Kepada Yth. Bpk/Ibu/Sdr/i: <br><strong>${to}</strong>` : ''
+  </script>
+
+  <script>
+    var audio = document.getElementById("audio");
+    var playPauseButton = document.getElementById("play-pause");
+
+    function playPause() {
+      if (audio.paused) {
+        audio.play();
+        playPauseButton.innerHTML = "<i class=\"fa-solid fa-volume-high\"></i>";
+      } else {
+        audio.pause();
+        playPauseButton.innerHTML = "<i class=\"fa-solid fa-volume-xmark\"></i>";
+      }
+    }
+
+    playPauseButton.addEventListener('click', playPause)
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  <script type="module">
+    const firebaseConfig = {
+      apiKey: "AIzaSyD17b5gV3Y2apXDYoc8Lzwy9Rx89_5cU24",
+      authDomain: "kotlinmessagertutorial.firebaseapp.com",
+      databaseURL: "https://kotlinmessagertutorial.firebaseio.com",
+      projectId: "kotlinmessagertutorial",
+      storageBucket: "kotlinmessagertutorial.appspot.com",
+      messagingSenderId: "91959233363",
+      appId: "1:91959233363:web:7b43093c2a727963af2fa6",
+      measurementId: "G-XK99178R1R"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig)
+
+    // Mengambil referensi database
+    var database = firebase.database()
+
+    // Menambahkan data ke dalam Realtime Database
+    document.getElementById('form_ucapan').addEventListener('submit', (e) => {
+      e.preventDefault()
+      const data = {
+        nama: document.getElementById('input_nama').value,
+        kehadiran: document.getElementById('input_kehadiran').value,
+        ucapandandoa: document.getElementById('input_pesan').value
+      }
+      database.ref("ucapandoa").push(data);
+    })
+
+    database.ref("ucapandoa").on("value", (snapshot) => {
+      const data = snapshot.val()
+      const dataResult = []
+      let htmlUcapan = ''
+      let x = 1
+      Object.keys(data).forEach(function (key) {
+        dataResult.push(data[key])
+        htmlUcapan += `
+          <div class="content px-4 aos-init aos-animate" data-aos="${x % 2 == 0 ? "fade-right" : "fade-left"}" data-aos-duration="2000">
+            <h2>${data[key].nama}</h2>
+            <p>"${data[key].ucapandandoa}"</p>
+          </div>
+        `
+        x++
+      })
+      document.querySelector('.wrapper_ucapan').innerHTML = htmlUcapan
+    })
+  </script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      document.getElementById('btn_buka_undangan').addEventListener('click', () => {
+        document.querySelector('.splash-screen').classList.add('animate__animated')
+        document.querySelector('.splash-screen').classList.add('animate__fadeOutUp')
+        document.querySelector('.main').classList.remove('d-none')
+        audio.play();
+      })
+    })
+  </script>
+
+  <script>
+    // Set waktu akhir hitung mundur (dalam milidetik)
+    var countDownDate = new Date("Feb 26, 2023 10:00:00").getTime();
+
+    // Update hitung mundur setiap 1 detik
+    var x = setInterval(function () {
+
+      // Dapatkan waktu sekarang
+      var now = new Date().getTime();
+
+      // Menghitung jarak waktu sekarang dan waktu akhir
+      var distance = countDownDate - now;
+
+      // Konversi jarak ke hari, jam, menit, detik
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Tampilkan hasil di elemen HTML dengan id "countdown"
+      document.getElementById("countdown").innerHTML = days + " Hari " + hours + " Jam "
+        + minutes + " Menit " + seconds + " Detik ";
+
+      // Jika waktu habis, tulis "Waktu habis!"
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "Waktu habis!";
+      }
+    }, 1000);
+  </script>
+
+</body>
+
+</html>
